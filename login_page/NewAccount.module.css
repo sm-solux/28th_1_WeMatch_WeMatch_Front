@@ -1,0 +1,23 @@
+.span {
+    text-transform: uppercase;
+  }
+
+  .ask_new {
+    cursor: pointer;
+    font-weight: 400;
+    position: absolute; left: 2%; top: 95%;
+    font-size: 20px;
+    display: inline-block;
+  }
+
+  .ask_new span:hover {
+    font-weight: 600;
+  }
+
+  .ask_new span {
+    cursor: pointer;
+  }
+
+  .ask_new span:active {
+    transform: translateY(2px);
+  }

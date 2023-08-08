@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.left {
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  width: 40%;
+  height: 100%;
+}
+.left,
+.logIn,
+.right {
+  position: absolute;
+}
+.right {
+  top: 0;
+  right: 0;
+  border-radius: 0 var(--br-21xl) var(--br-21xl) 0;
+  background-color: #bbcff0;
+  width: 60%;
+  height: 100%;
+}
+.logIn {
+  position:absolute; left:66%; top:45%;
+  font-size: 80px;
+  font-weight: 400;
+  display: inline-block;
+  width: 399px;
+  height: 117px;
+}
+.macbookPro14Child {
+  position: absolute;
+  top: 763px;
+  left: 843px;
+  border-radius: var(--br-21xl);
+  width: 549px;
+  height: 107px;
+}
+
+
+.welcome {
+  position: absolute; left:3%; top:5%;
+  font-size: 50px;
+  font-weight: 300px;
+  display: inline-block;
+}
+
+
+
+.youremail{
+  position: absolute; left:60%; top:65%;
+  color: #7384B1;
+  font-size: 20px;
+}
